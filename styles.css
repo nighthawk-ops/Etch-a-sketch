@@ -4,7 +4,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Jersey 10";
+    justify-content: space-between;
+    font-size: large;
 }
+
 .container{
     display: flex;
     border: 4px solid black;
@@ -12,4 +16,28 @@ body{
     background-color: #e37239;
     box-sizing: border-box;
     
+}
+
+.controls{
+    display: flex;
+}
+
+button{
+    font-family: "Jersey 10";
+    background-color:#254252;
+    color: #f9982f;
+    padding: 5px;
+    border: 1px solid #e37239;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: large;
+}
+
+h2{
+    color: #e37239;
+    border: none;
+}
+
+footer{
+    margin-top: auto;
 }
